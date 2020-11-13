@@ -28,7 +28,7 @@ html{
   color: black;
 }
 .todoside{
-  background-color: green;
+  background-color:#52527a;
 }
 .todop{
   color: white;
@@ -65,5 +65,10 @@ html{
   background-color:#52527a;
 }
 #typingmain{
-  border-top: 30px solid black;
+  /* border-top: 30px solid black; */
+}
+
+/* simon side */
+.simonside{
+  background-color: #52527a;
 }
