@@ -1,0 +1,9 @@
+.logo1{
+  width: 12%;
+  border-radius: 50%;
+}
+@media (max-width: 768px){
+  .logo1{
+    display: none;
+  }
+}
