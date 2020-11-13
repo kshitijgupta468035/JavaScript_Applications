@@ -1,5 +1,6 @@
+/* logo css */
 .logo1{
-  width: 12%;
+  width: 10%;
   border-radius: 50%;
 }
 @media (max-width: 768px){
