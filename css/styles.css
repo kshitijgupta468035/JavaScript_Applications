@@ -87,54 +87,51 @@ html {
   max-width: 100%;
 }
 
-
 /* connect section */
-.social{
+.social {
   font-size: 3.5rem;
   padding: 20px;
 }
-a{
+a {
   padding: 3rem;
 }
-.fa-facebook{
-  color: #3b5998; 
+.fa-facebook {
+  color: #3b5998;
 }
 
-.fa-envelope{
-  color: #D44638;
+.fa-envelope {
+  color: #d44638;
 }
 .fa-facebook:hover,
 .fa-git:hover,
 .fa-linkedin:hover,
-.fa-envelope:hover{
+.fa-envelope:hover {
   color: #d5d5d5;
 }
 
-
-
 /* footer section */
 
-footer{
+footer {
   background-color: #3f3f3f;
   color: #d5d5d5;
   padding-top: 2rem;
 }
-hr.light{
+hr.light {
   border-top: 1px solid #d5d5d5;
   width: 75%;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   margin-bottom: 1rem;
 }
-footer a{
+footer a {
   color: #d5d5d5;
 }
-hr.light-100{
+hr.light-100 {
   border: 1px solid #d5d5d5;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   margin-bottom: 1rem;
   width: 100%;
 }
-.footerimage{
+.footerimage {
   width: 20%;
   border-radius: 50%;
 }
