@@ -19,9 +19,6 @@ html{
 
 
 /* todo section */
-#todomain{
-  /* border-top: 30px solid white; */
-}
 .todoh5{
   text-align: center;
   font-size: 4vw;
@@ -37,6 +34,8 @@ html{
   color: white;
   text-align: justify;
 }
+
+/* background section */
 
 .carousel-inner img{
   height: 100%;
@@ -58,4 +57,13 @@ html{
   font-weight: 500;
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
+}
+
+/* typing section */
+.typingside{
+  /* color: black; */
+  background-color:#52527a;
+}
+#typingmain{
+  border-top: 30px solid black;
 }
