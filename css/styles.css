@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 /* logo css */
 .logo1{
   width: 10%;
@@ -17,7 +20,7 @@
 
 /* todo section */
 #todomain{
-  border: 30px solid black;
+  /* border-top: 30px solid white; */
 }
 .todoh5{
   text-align: center;
@@ -33,4 +36,26 @@
 .todop{
   color: white;
   text-align: justify;
+}
+
+.carousel-inner img{
+  height: 100%;
+  width: 100%;
+  /* opacity: .8; */
+}
+.carousel-caption{
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+.carousel-caption h1{
+  font-size: 7vw;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+  font-size: 3vw;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
 }
