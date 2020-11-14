@@ -94,16 +94,17 @@ function setGreeting() {
   let hour = today.getHours(); //17
 
   if (hour < 12) {
-    // document.body.style.backgroundImage = 'url("../images/morning1.jpg")';
+    document.body.style.backgroundImage = 'url("../images/morning1.jpg")';
     greeting.innerHTML = "Good Morning";
     time.style.fontFamily = "cursive";
     document.body.style.color = "white";
     time.style.color = "red";
   } else if (hour < 18) {
-    // document.body.style.backgroundImage = 'url("../images/afternoon1.jpg")';
+    document.body.style.backgroundImage = 'url("../images/afternoon1.jpg")';
     greeting.innerHTML = "Good Afternoon";
+    document.body.style.color = "black";
   } else {
-    // document.body.style.backgroundImage = 'url("../images/dark1.jpg")';
+    document.body.style.backgroundImage = 'url("../images/dark1.jpg")';
     greeting.innerHTML = "Good Evening";
     document.body.style.color = "white";
   }
