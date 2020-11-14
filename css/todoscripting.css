@@ -85,3 +85,15 @@
     text-decoration: line-through;
   }
   
+
+  /* time */
+  #time {
+    /* 1rem=16px=128px */
+    font-size: 8rem;
+  }
+  h1 {
+    margin-bottom: 1rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
