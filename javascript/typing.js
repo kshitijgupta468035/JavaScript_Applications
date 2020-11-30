@@ -1,6 +1,6 @@
+// whenever window load call "init" 
 window.addEventListener('load', init);
 
-// Globals
 
 // Available Levels
 const levels = {
@@ -12,6 +12,7 @@ const levels = {
 // To change level
 const currentLevel = levels.medium;
 
+// Globals
 let time = currentLevel;
 let score = 0;
 let isPlaying;
