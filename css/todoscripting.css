@@ -1,131 +1,131 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    /* background: linear-gradient(120deg, skyblue, blue); */
-    background-color: #0099cc;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    min-height: 100vh;
-    background-size: cover;
-    min-width: 300px;
-  }
-  h1,
-  form {
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  h1 {
-    height: 20vh;
-    font-size: 40px;
-    color: white;
-  }
-  form input,
-  form button {
-    padding: 10px;
-    border: none;
-    font-size: 24px;
-    background: white;
-    outline: none;
-  }
-  .todo-input{
-    margin: 12px;
-  }
-  form input{
-    width: 80%;
-  }
-  form button {
-    color: blue;
-    background-color: white;
-    cursor: pointer;
-  }
-  form button:hover {
-    background-color: skyblue;
-    color: white;
-  }
-  
-  .todo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .todo-list {
-    list-style: none;
-    min-width: 25%;
-  }
-  .todo {
-    margin: 8px;
-    background-color: white;
-    color: black;
-    font-size: 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .todo-item {
-    flex: 1;
-    margin: 0 8px;
-  }
-  .check-btn,
-  .delete-btn {
-    background-color: rgb(8, 126, 8);
-    color: white;
-    border: none;
-    outline: none;
-    padding: 16px;
-    font-size: 16px;
-  }
-  .delete-btn {
-    background: red;
-  }
-  
-  .fa-check,
-  .fa-delete {
-    pointer-events: none;
-  }
-  i{
-    pointer-events: none;
-  }
-  
-  .completed {
-    opacity: 0.5;
-    text-decoration: line-through;
-  }
-  
-  h3{
-color: #ffcc00;
-  }
-  .content1{
-    color: #99cc00;
-    font-weight: bold;
-    margin: 3vh;
-  }
-  .content2{
-    color: #2d5986;
-    font-weight: bold;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: linear-gradient(120deg, skyblue, blue); */
+  background-color: #0099cc;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  background-size: cover;
+  min-width: 300px;
+}
+h1,
+form {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  height: 20vh;
+  font-size: 40px;
+  color: white;
+}
+form input,
+form button {
+  padding: 10px;
+  border: none;
+  font-size: 24px;
+  background: white;
+  outline: none;
+}
+.todo-input {
+  margin: 12px;
+}
+form input {
+  width: 80%;
+}
+form button {
+  color: blue;
+  background-color: white;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: skyblue;
+  color: white;
+}
 
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-list {
+  list-style: none;
+  min-width: 25%;
+}
+.todo {
+  margin: 8px;
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo-item {
+  flex: 1;
+  margin: 0 8px;
+}
+.check-btn,
+.delete-btn {
+  background-color: rgb(8, 126, 8);
+  color: white;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+}
+.delete-btn {
+  background: red;
+}
 
-  .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.fa-check,
+.fa-delete {
+  pointer-events: none;
+}
+i {
+  pointer-events: none;
+}
+
+.completed {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+h3 {
+  color: #ffcc00;
+}
+.content1 {
+  color: #99cc00;
+  font-weight: bold;
+  margin: 3vh;
+}
+.content2 {
+  color: #2d5986;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input:focus {
+  border: 2px solid #3366cc;
+}
+@media (max-width: 648px) {
+  h3 {
+    text-align: center;
   }
-  input:focus{
-    border: 2px solid #3366cc;
+}
+@media (max-width: 400px) {
+  .content1,
+  .content2 {
+    text-align: center;
   }
-  @media (max-width: 648px){
-    h3{
-      text-align: center;
-    }
-  }
-  @media (max-width: 400px){
-    .content1, .content2{
-      text-align: center;
-    }
-  }
+}
