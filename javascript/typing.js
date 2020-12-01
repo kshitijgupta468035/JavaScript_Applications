@@ -51,7 +51,6 @@ const words = [
     'master',
     'space',
     'definition',
-    'hydroelectricity',
     'theologian',
     'touchwood',
     'merchandise',
@@ -108,7 +107,14 @@ function init() {
     // Generate random array index
     const randIndex = Math.floor(Math.random() * words.length);
     // Output random word
+    // let storeRandom = words[randIndex];
+    // console.log(storeRandom);
+    // if(storeRandom.length > 8){
+    //   document.body.style.fontSize = "7px";
+    // }
+    // else{
     currentWord.innerHTML = words[randIndex];
+    // }
   }
   
   // Countdown timer
