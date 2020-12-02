@@ -1,24 +1,24 @@
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
 }
-#tododetail p{
-    text-align: justify;
-  }
-  h5{
-    font-size: 3vw;
-  }
-  .first{
-   background-color: #4080bf;
-    color: white;
-  }
-  .first1 b{
-    color: black;
-  }
-.middle{
+#tododetail p {
+  text-align: justify;
+}
+h5 {
+  font-size: 3vw;
+}
+.first {
+  background-color: #4080bf;
+  color: white;
+}
+.first1 b {
+  color: black;
+}
+.middle {
   padding: 40px;
   background-color: #999966;
   color: white;
 }
-.middle1 b{
+.middle1 b {
   color: black;
 }
