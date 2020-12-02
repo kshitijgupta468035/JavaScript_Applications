@@ -1,272 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap CSS -->
-    <title>JavaScript Applications</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <!-- navigation bar -->
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <a href="" class="navbar-brand"
-        ><img src="./images/logo1.jpg" class="logo1" alt=""
-      /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href=""
-              id="navbarDropDown1"
-              role="button"
-              data-toggle="dropdown"
-              >ComingSoon</a
-            >
-            <div class="dropdown-menu" aria-labelledby="navbarDropDown1">
-              <a href="" class="dropdown-item">Scientific Calculator</a>
-              <div class="dropdown-divider"></div>
-              <a href="" class="dropdown-item">JavaScript Quiz</a>
-              <div class="dropdown-divider"></div>
-              <a href="" class="dropdown-item">Racing Game</a>
-              <div class="dropdown-divider"></div>
-              <a href="" class="dropdown-item">Many More...</a>
-              <div class="dropdown-divider"></div>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href=""
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              >Applications</a
-            >
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a href="#todomain" class="dropdown-item">ToDo List</a>
-              <div class="dropdown-divider"></div>
-              <a href="#typingmain" class="dropdown-item">Typing Speed</a>
-              <div class="dropdown-divider"></div>
-              <a href="#simonmain" class="dropdown-item">Simon Game</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#connect">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#footermain">About</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap CSS -->
+  <title>JavaScript Applications</title>
 
-    <!-- background section -->
-    <section id="myslides">
-      <div class="carousel-inner">
-        <img src="./images/car1.jpg" />
-        <div class="carousel-caption">
-          <h1 class="display-2">Play Like a Boss</h1>
-          <h3>Javascript Applications</h3>
-        </div>
-      </div>
-    </section>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
 
-    <!-- todo section -->
-    <section id="todomain">
-      <div class="card mb-3">
-        <div class="row no-gutters">
-          <div class="col-md-6">
-            <img src="./images/todo2.jpeg" class="card-img todo" alt="..." />
-          </div>
-          <div class="todoside col-md-6">
-            <div class="card-body">
-              <h5 class="card-title todoh5">Todo List</h5>
-              <p class="card-text todop">
-                ToDoList is software in the category of Task Management, Project
-                Management, Productivity, “Getting Things Done” (GTD),
-                Scheduling, and Collaboration. ToDoList is general-purpose,
-                software, which can be used for simple “honey do” home lists or
-                to manage complex multi-user projects for business.
-              </p>
-              <a href="./pages/todo.html" class="btn btn-primary"
-                >Go in Detail?</a
-              >
-              <a href="./pages/todoscripting.html" class="btn btn-primary"
-                >Want to Create ToDo?</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<body>
+  <!-- navigation bar -->
 
-    <figure>
-      <div class="fixed-wrap">
-        <div id="fixed"></div>
-      </div>
-    </figure>
-
-    <!-- Adding Emojis -->
-    <button class="fun" data-toggle="collapse" data-target="#emoji">
-      Click for fun
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a href="" class="navbar-brand"><img src="./images/logo1.jpg" class="logo1" alt="" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div id="emoji" class="collapse">
-      <div class="container-fluid padding">
-        <div class="row text-center">
-          <div class="col-sm-6 col-md-3">
-            <img class="gif" src="./images/gif/panda.gif" />
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="" id="navbarDropDown1" role="button" data-toggle="dropdown">ComingSoon</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropDown1">
+            <a href="" class="dropdown-item">Scientific Calculator</a>
+            <div class="dropdown-divider"></div>
+            <a href="" class="dropdown-item">JavaScript Quiz</a>
+            <div class="dropdown-divider"></div>
+            <a href="" class="dropdown-item">Racing Game</a>
+            <div class="dropdown-divider"></div>
+            <a href="" class="dropdown-item">Many More...</a>
+            <div class="dropdown-divider"></div>
           </div>
-          <div class="col-sm-6 col-md-3">
-            <img class="gif" src="./images/gif/poo.gif" />
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown">Applications</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a href="#todomain" class="dropdown-item">ToDo List</a>
+            <div class="dropdown-divider"></div>
+            <a href="#typingmain" class="dropdown-item">Typing Speed</a>
+            <div class="dropdown-divider"></div>
+            <a href="#simonmain" class="dropdown-item">Simon Game</a>
           </div>
-          <div class="col-sm-6 col-md-3">
-            <img class="gif" src="./images/gif/unicorn.gif" />
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img class="gif" src="./images/gif/chicken.gif" />
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#connect">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footermain">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- background section -->
+  <section id="myslides">
+    <div class="carousel-inner">
+      <img src="./images/car1.jpg" />
+      <div class="carousel-caption">
+        <h1 class="display-2">Play Like a Boss</h1>
+        <h3>Javascript Applications</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- todo section -->
+  <section id="todomain">
+    <div class="card mb-3">
+      <div class="row no-gutters">
+        <div class="col-md-6">
+          <img src="./images/todo2.jpeg" class="card-img todo" alt="..." />
+        </div>
+        <div class="todoside col-md-6">
+          <div class="card-body text-center">
+            <h5 class="card-title todoh5" style="font-family: cursive; padding: 10px;">Todo List</h5>
+            <p class="card-text todop" style="padding: 20px;">
+              ToDoList is software in the category of Task Management, Project
+              Management, Productivity, “Getting Things Done” (GTD),
+              Scheduling, and Collaboration. ToDoList is general-purpose,
+              software, which can be used for simple “honey do” home lists or
+              to manage complex multi-user projects for business.
+            </p>
+            <a href="./pages/todo.html" class="btn btn-primary">Go in Detail?</a>
+            <a href="./pages/todoscripting.html" class="btn btn-primary">Want to Create ToDo?</a>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- typing speed section -->
+  <figure>
+    <div class="fixed-wrap">
+      <div id="fixed"></div>
+    </div>
+  </figure>
 
-    <section id="typingmain">
-      <div class="card mb-3">
-        <div class="row no-gutters">
-          <div class="col-md-6">
-            <img src="./images/typing.jpg" class="card-img todo" alt="..." />
-          </div>
-          <div class="typingside col-md-6">
-            <div class="card-body">
-              <h5 class="card-title todoh5">Typing Speed Game</h5>
-              <p class="card-text todop">
-                This game is for those users who wants to improve their typing
-                speed by typing that word in a given time. Users can challenge
-                their friends by sharing their respective scores.
-              </p>
-              <!-- <a href="./pages/typingDetail.html" class="btn btn-primary">Go in Detail?</a> -->
-              <a href="./pages/typingscripting.html" class="btn btn-primary"
-                >Play it?</a
-              >
-            </div>
+  <!-- Adding Emojis -->
+  <button class="fun" data-toggle="collapse" data-target="#emoji">
+    Click for fun
+  </button>
+  <div id="emoji" class="collapse emoji">
+    <div class="container-fluid padding">
+      <div class="row text-center">
+        <div class="col-sm-6 col-md-3 emoji">
+          <img class="gif" src="./images/gif/panda.gif" />
+        </div>
+        <div class="col-sm-6 col-md-3 emoji">
+          <img class="gif" src="./images/gif/poo.gif" />
+        </div>
+        <div class="col-sm-6 col-md-3 emoji">
+          <img class="gif" src="./images/gif/unicorn.gif" />
+        </div>
+        <div class="col-sm-6 col-md-3 emoji">
+          <img class="gif" src="./images/gif/chicken.gif" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- typing speed section -->
+
+  <section id="typingmain">
+    <div class="card mb-3">
+      <div class="row no-gutters">
+        <div class="col-md-6">
+          <img src="./images/typing.jpg" class="card-img todo" alt="..." />
+        </div>
+        <div class="typingside col-md-6">
+          <div class="card-body text-center">
+            <h5 class="card-title todoh5" style="font-family: cursive; padding: 10px;">Typing Speed Game</h5>
+            <p class="card-text todop" style="padding: 20px;">
+              This game is for those users who wants to improve their typing
+              speed by typing that word in a given time. Users can challenge
+              their friends by sharing their respective scores.
+            </p>
+            <!-- <a href="./pages/typingDetail.html" class="btn btn-primary">Go in Detail?</a> -->
+            <a href="pages/typingscripting.html" class="btn btn-primary">Play it?</a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- simon game section -->
+  <!-- simon game section -->
 
-    <section id="simonmain">
-      <div class="card mb-3">
-        <div class="row no-gutters">
-          <div class="col-md-6">
-            <img src="./images/simon.jpg" class="card-img todo" alt="..." />
-          </div>
-          <div class="simonside col-md-6">
-            <div class="card-body">
-              <h5 class="card-title todoh5">Simon Game</h5>
-              <p class="card-text todop">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reprehenderit quo, aliquid a repellat ad laborum consequatur.
-                Voluptate consectetur porro quaerat nam facilis distinctio eum
-                alias impedit aliquam deleniti illo aliquid esse accusamus
-                incidunt, beatae, molestias laboriosam totam eaque nisi, rem
-                necessitatibus reprehenderit? Perspiciatis sapiente magni
-                assumenda neque dolore dolorum obcaecati.
-              </p>
-              <a href="#" class="btn btn-primary">How it works?</a>
-              <a href="#" class="btn btn-primary">Play it?</a>
-            </div>
+  <section id="simonmain">
+    <div class="card mb-3">
+      <div class="row no-gutters">
+        <div class="col-md-6">
+          <img src="./images/simon.jpg" class="card-img todo" alt="..." />
+        </div>
+        <div class="simonside col-md-6">
+          <div class="card-body text-center">
+            <h5 class="card-title todoh5" style="font-family: cursive; padding: 10px;">Simon Game</h5>
+            <p class="card-text todop" style="padding: 20px;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit quo, aliquid a repellat ad laborum consequatur.
+              Voluptate consectetur porro quaerat nam facilis distinctio eum
+              alias impedit aliquam deleniti illo aliquid esse accusamus
+              incidunt, beatae, molestias laboriosam totam eaque nisi, rem
+              necessitatibus reprehenderit? Perspiciatis sapiente magni
+              assumenda neque dolore dolorum obcaecati.
+            </p>
+            <a href="https://www.youtube.com/watch?v=1Yqj76Q4jJ4" class="btn btn-primary">How it works?</a>
+            <a href="./pages/Simongame.html" class="btn btn-primary">Play it?</a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- contact -->
-    <section id="connect">
+  <!-- contact -->
+  <section id="connect">
+    <div class="container-fluid padding">
+      <div class="row text-center padding">
+        <div class="col-12">
+          <h2>Connect</h2>
+        </div>
+
+        <!-- Our links -->
+        <div class="col-12 social padding">
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-git"></i></a>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <!-- Footer Section -->
+  <footer>
+    <div id="footermain">
       <div class="container-fluid padding">
-        <div class="row text-center padding">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <img src="./images/logo1.jpg" class="footerimage" alt="" />
+            <hr class="light" />
+            <p>webdevelopment9453@gmail.com</p>
+            <p>100 Park Street</p>
+            <p>Mathura, UTTAR PRADESH, 281001</p>
+          </div>
+          <div class="col-md-4">
+            <hr class="light" />
+            <h1>Our Hours</h1>
+            <hr class="light" />
+            <p>Monday: 9am - 5pm</p>
+            <p>Saturday: 10am - 4pm</p>
+            <p>Sunday: Closed</p>
+          </div>
+          <div class="col-md-4">
+            <hr class="light" />
+            <h2>Services Area</h2>
+            <hr class="light" />
+            <p>Agra, UTTAR PRADESH, 282002</p>
+            <p>Sitapur, UTTAR PRADESH, 261001</p>
+            <p>Kolkata, WEST BENGAL, 700001</p>
+          </div>
+
           <div class="col-12">
-            <h2>Connect</h2>
-          </div>
-
-          <!-- Our links -->
-          <div class="col-12 social padding">
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-git"></i></a>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-envelope"></i></a>
+            <hr class="light-100" />
+            <h5>
+              Web Design 2020, Copyright &copy; www.myWeb.com. All rights
+              Reserved
+            </h5>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </footer>
+</body>
 
-    <!-- footer -->
-    <!-- Footer Section -->
-    <footer>
-      <div id="footermain">
-        <div class="container-fluid padding">
-          <div class="row text-center">
-            <div class="col-md-4">
-              <img src="./images/logo1.jpg" class="footerimage" alt="" />
-              <hr class="light" />
-              <p>webdevelopment9453@gmail.com</p>
-              <p>100 Park Street</p>
-              <p>Mathura, UTTAR PRADESH, 281001</p>
-            </div>
-            <div class="col-md-4">
-              <hr class="light" />
-              <h1>Our Hours</h1>
-              <hr class="light" />
-              <p>Monday: 9am - 5pm</p>
-              <p>Saturday: 10am - 4pm</p>
-              <p>Sunday: Closed</p>
-            </div>
-            <div class="col-md-4">
-              <hr class="light" />
-              <h2>Services Area</h2>
-              <hr class="light" />
-              <p>Agra, UTTAR PRADESH, 282002</p>
-              <p>Sitapur, UTTAR PRADESH, 261001</p>
-              <p>Kolkata, WEST BENGAL, 700001</p>
-            </div>
-
-            <div class="col-12">
-              <hr class="light-100" />
-              <h5>
-                Web Design 2020, Copyright &copy; www.myWeb.com. All rights
-                Reserved
-              </h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>
