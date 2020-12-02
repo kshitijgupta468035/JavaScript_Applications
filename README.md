@@ -2,6 +2,7 @@
 Based on JavaScript Applications
 
 Problem Statement:
+
 There are many websites on the internet which provide only games, but our idea is to
 create a website through which users can learn while playing games. So, basically we are
 promoting the idea of learning with fun. Considering that, we are building all our
@@ -9,6 +10,7 @@ applications as a game through which a user can learn while playing.
 
 
 Objective:
+
 The aim of our project is to target thousands of users to use and engage with our website.
 We have decided to work on this project because most of the people face the same
 problem when they want to relax their mind but don't want to waste their time on any
