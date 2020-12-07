@@ -66,7 +66,7 @@ Status of Our Project:
     
     b) Added Media Queries for ToDo and Change display of random words.
     
-    2 Dec 2020 ->
+2 Dec 2020 ->
     
         a) Created Simon Game
     
