@@ -68,5 +68,19 @@ Status of Our Project:
     
 2 Dec 2020 ->
     
-        a) Created Simon Game
+        a) Created Simon Game.
+        b) Created layout for simon game.
+
+3 Dec 2020 ->
+        
+        a) Created css file for simon game.
+        b) Implemented functionality of simon game.
+       
+4 Dec 2020 ->
+        
+        a) Made project report.
+        
+5 Dec 2020 ->
+        
+        a) Made project PPT.
     
