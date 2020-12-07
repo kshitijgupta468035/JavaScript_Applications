@@ -8,19 +8,61 @@ create a website through which users can learn while playing games. So, basicall
 promoting the idea of learning with fun. Considering that, we are building all our
 applications as a game through which a user can learn while playing.
 
+Status of Our Project:
 
-Objective:
+13 Aug 2020 to 15 Aug 2020 -> Understand Problem
 
-The aim of our project is to target thousands of users to use and engage with our website.
-We have decided to work on this project because most of the people face the same
-problem when they want to relax their mind but don't want to waste their time on any
-game which has no use. So, to overcome this problem we will build a website where
-users can improve their skills with fun and also manage their work.
-We will build an interactive user interface with the help of HTML, CSS, JavaScript and
-Bootstrap which illustrates the things in an efficient way so that it is easy to use and
-understand.
-We are making applications like a Typing Speed game so that users can relax their mind
-with improving their typing skills. Our next application will be ToDo List; with the help
-of this application users can manage their work and life in a very easy and efficient
-manner. Our last application will be Simon Game, which will help users to increase their
-memorizing power.
+16 Aug 2020 to 19 Aug 2020 -> Topic Finalization
+
+20 Aug 2020 to 25 Aug 2020 -> Synopsis
+
+26 Aug 2020 to 5 Sep 2020 -> UI Design
+
+6 Sep 2020 to 20 Sep 2020 -> Mockup + Review
+
+21 Sep 2020 to 22 Oct 2020 -> Learn JavaScript and Other Frameworks
+
+23 Oct 2020 to 10 Nov 2020 -> Content Creation
+
+11 Nov 2020 -> Created a Responsive Navigation Bar.
+
+13 Nov 2020 -> 
+
+    a) Added logo and created submenu option in navigation bar.
+    
+    b) Implement UI for ToDo List Section, Typing Speed Game and Simon Game.
+    
+    c) Implemented Connect and Contact Section.
+    
+    d) Implemented About(Footer) Section.
+ 
+14 Nov 2020 ->
+
+    a) Created Detailed Page for ToDo List.
+    
+    b) Implement Functionalities in ToDo List with Create, Read and Delete Operations.
+    
+15 Nov 2020 ->
+
+    a) Created Strcture For Typing Speed Game.
+    
+    b) Provide Functionalities in Typing Speed Game.
+    
+17 Nov 2020 -> Live Github Page
+
+20 Nov 2020 -> Updated ToDo List User Interface
+
+25 Nov 2020 -> Added some more words in Typing Speed Game.
+
+30 Nov 2020 -> 
+
+    a) Provide Links in the Dropdown Menu in Navigation Bar.
+    
+    b) Provide Links in Connect and Contact
+    
+1 Dec 2020 ->
+
+    a) Created DropDown Menu for "Coming Soon" in Navigation Bar.
+    
+    b) Added Media Queries for ToDo and Change display of random words.
+    
