@@ -18,7 +18,8 @@ Status of Our Project:
 
         -> Topic Finalization
 
-20 Aug 2020 to 25 Aug 2020 
+20 Aug 2020 to 25 Aug 2020
+
         -> Synopsis
 
 26 Aug 2020 to 5 Sep 2020
@@ -65,15 +66,15 @@ Status of Our Project:
     
 17 Nov 2020 
 
-        -> Live Github Page
+    -> Live Github Page
 
 20 Nov 2020 
 
-        -> Updated ToDo List User Interface
+    -> Updated ToDo List User Interface
 
 25 Nov 2020 
 
-        -> Added some more words in Typing Speed Game.
+    -> Added some more words in Typing Speed Game.
 
 30 Nov 2020 -> 
 
