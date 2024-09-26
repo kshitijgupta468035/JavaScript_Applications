@@ -10,21 +10,37 @@ applications as a game through which a user can learn while playing.
 
 Status of Our Project:
 
-13 Aug 2020 to 15 Aug 2020 -> Understand Problem
+13 Aug 2020 to 15 Aug 2020
 
-16 Aug 2020 to 19 Aug 2020 -> Topic Finalization
+        -> Understand Problem
 
-20 Aug 2020 to 25 Aug 2020 -> Synopsis
+16 Aug 2020 to 19 Aug 2020 
 
-26 Aug 2020 to 5 Sep 2020 -> UI Design
+        -> Topic Finalization
 
-6 Sep 2020 to 20 Sep 2020 -> Mockup + Review
+20 Aug 2020 to 25 Aug 2020
 
-21 Sep 2020 to 22 Oct 2020 -> Learn JavaScript and Other Frameworks
+        -> Synopsis
 
-23 Oct 2020 to 10 Nov 2020 -> Content Creation
+26 Aug 2020 to 5 Sep 2020
 
-11 Nov 2020 -> Created a Responsive Navigation Bar.
+        -> UI Design
+
+6 Sep 2020 to 20 Sep 2020 
+
+        -> Mockup + Review
+
+21 Sep 2020 to 22 Oct 2020 
+
+        -> Learn JavaScript and Other Frameworks
+
+23 Oct 2020 to 10 Nov 2020 
+
+        -> Content Creation
+
+11 Nov 2020 
+
+        -> Created a Responsive Navigation Bar.
 
 13 Nov 2020 -> 
 
@@ -48,17 +64,23 @@ Status of Our Project:
     
     b) Provide Functionalities in Typing Speed Game.
     
-17 Nov 2020 -> Live Github Page
+17 Nov 2020 
 
-20 Nov 2020 -> Updated ToDo List User Interface
+    -> Live Github Page
 
-25 Nov 2020 -> Added some more words in Typing Speed Game.
+20 Nov 2020 
+
+    -> Updated ToDo List User Interface
+
+25 Nov 2020 
+
+    -> Added some more words in Typing Speed Game.
 
 30 Nov 2020 -> 
 
     a) Provide Links in the Dropdown Menu in Navigation Bar.
     
-    b) Provide Links in Connect and Contact
+    b) Provide Links in Connect and Contact.
     
 1 Dec 2020 ->
 
@@ -69,11 +91,13 @@ Status of Our Project:
 2 Dec 2020 ->
     
         a) Created Simon Game.
+        
         b) Created layout for simon game.
 
 3 Dec 2020 ->
         
         a) Created css file for simon game.
+        
         b) Implemented functionality of simon game.
        
 4 Dec 2020 ->
@@ -83,4 +107,7 @@ Status of Our Project:
 5 Dec 2020 ->
         
         a) Made project PPT.
-    
+        
+ 7 Dec 2020 ->
+ 
+        a) Made Project Video
